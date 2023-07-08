@@ -28,6 +28,7 @@ public class App {
                     continue;
                 } else{}
                 checkBalance();
+
             }else if(menu == 2){
 
                 if(accountName == ""){
@@ -36,7 +37,6 @@ public class App {
                     continue;
                 } else{}
                 deposit(input);
-                
 
             }else if(menu == 3){
                 if(accountName == ""){
