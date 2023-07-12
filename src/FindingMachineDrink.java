@@ -55,11 +55,13 @@ public class FindingMachineDrink {
 
             System.out.println("Harap Masukkan Uang Pas : ");
             int money = input.nextInt();
-
+            
             if (money != total) {
-                System.out.println("Uang Kembali ! Masukkan Uang Pas" + money );
+                System.out.println("Uang Kembali ! Masukkan Uang Pas " + money );
+                System.out.print("Masukkan Uang Pas " );
+                money = input.nextInt();
             }else if (money == total) {
-                System.out.println("Terima Kasih Telah Membeli Minuman" + name);
+                System.out.println("Terima Kasih Telah Membeli Minuman " + name);
             }else{
                 System.out.println("Uang Anda Kurang");
             }
